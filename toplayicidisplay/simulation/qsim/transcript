@@ -1,0 +1,43 @@
+# do toplayicidisplay.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module toplayicidisplay
+# 
+# Top level modules:
+# 	toplayicidisplay
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module toplayicidisplay_vlg_sample_tst
+# -- Compiling module toplayicidisplay_vlg_check_tst
+# ** Warning: toplayicidisplay.vt(174): (vlog-2576) [BSOB] - Bit-select into 'leds_expected_prev' is out of bounds.
+# 
+# ** Warning: toplayicidisplay.vt(174): (vlog-2576) [BSOB] - Bit-select into 'leds_prev' is out of bounds.
+# 
+# ** Warning: toplayicidisplay.vt(174): (vlog-2576) [BSOB] - Bit-select into 'leds_expected_prev' is out of bounds.
+# 
+# ** Warning: toplayicidisplay.vt(175): (vlog-2576) [BSOB] - Bit-select into 'leds_expected_prev' is out of bounds.
+# 
+# ** Warning: toplayicidisplay.vt(175): (vlog-2576) [BSOB] - Bit-select into 'last_leds_exp' is out of bounds.
+# 
+# ** Warning: toplayicidisplay.vt(184): (vlog-2576) [BSOB] - Bit-select into 'last_leds_exp' is out of bounds.
+# 
+# ** Warning: toplayicidisplay.vt(184): (vlog-2576) [BSOB] - Bit-select into 'leds_expected_prev' is out of bounds.
+# 
+# -- Compiling module toplayicidisplay_vlg_vec_tst
+# 
+# Top level modules:
+# 	toplayicidisplay_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.toplayicidisplay_vlg_vec_tst 
+# Loading work.toplayicidisplay_vlg_vec_tst
+# Loading work.toplayicidisplay
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading work.toplayicidisplay_vlg_sample_tst
+# Loading work.toplayicidisplay_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Simulation passed !
+# ** Note: $finish    : toplayicidisplay.vt(276)
+#    Time: 1 us  Iteration: 0  Instance: /toplayicidisplay_vlg_vec_tst/tb_out

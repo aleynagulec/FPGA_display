@@ -1,0 +1,82 @@
+|toplayicidisplay
+leds[1] <= aaa:inst.leds[1]
+leds[2] <= aaa:inst.leds[2]
+leds[3] <= aaa:inst.leds[3]
+leds[4] <= aaa:inst.leds[4]
+leds[5] <= aaa:inst.leds[5]
+leds[6] <= aaa:inst.leds[6]
+leds[7] <= aaa:inst.leds[7]
+A0 => toplayici:inst1.A0
+B0 => toplayici:inst1.B0
+A1 => toplayici:inst1.A1
+B1 => toplayici:inst1.B1
+A2 => toplayici:inst1.A2
+B2 => toplayici:inst1.B2
+A3 => toplayici:inst1.A3
+B3 => toplayici:inst1.B3
+
+
+|toplayicidisplay|aaa:inst
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+leds[7] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|toplayicidisplay|toplayici:inst1
+cikis0 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+A0 => inst21.IN0
+A0 => inst18.IN1
+B0 => inst21.IN1
+B0 => inst18.IN0
+Cin => inst22.IN1
+Cin => inst19.IN0
+cikis1 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst13.IN0
+A1 => inst16.IN1
+B1 => inst13.IN1
+B1 => inst16.IN0
+cikis2 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+A2 => inst10.IN0
+A2 => inst7.IN1
+B2 => inst10.IN1
+B2 => inst7.IN0
+cikis3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst6.IN0
+A3 => inst.IN1
+B3 => inst6.IN1
+B3 => inst.IN0
+Cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

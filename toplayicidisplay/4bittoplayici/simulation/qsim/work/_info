@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\AleynaGULEC\Desktop\fpga-final\4bittoplayici\simulation\qsim
+vtoplayici
+Z1 IF3eRa76RziG3<>J0G<;_h1
+Z2 VPXWfV3WzLFgGBHlV[023R0
+Z3 dC:\Users\AleynaGULEC\Desktop\fpga-final\4bittoplayici\simulation\qsim
+Z4 w1590827043
+Z5 8toplayici.vo
+Z6 Ftoplayici.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 P<bdi8I1<ohAU2=6BROFI2
+!s85 0
+Z10 !s108 1590827044.550000
+Z11 !s107 toplayici.vo|
+Z12 !s90 -work|work|toplayici.vo|
+!s101 -O0
+vtoplayici_vlg_check_tst
+!i10b 1
+!s100 YNimFoiK2@<51@M@TLkTn2
+Ia=HV<<1_Y=53=FUI4ghQ12
+V5za<5kYD2h7gT<8okj6=73
+R3
+Z13 w1590827041
+Z14 8toplayici.vt
+Z15 Ftoplayici.vt
+L0 73
+R7
+r1
+!s85 0
+31
+Z16 !s108 1590827044.743000
+Z17 !s107 toplayici.vt|
+Z18 !s90 -work|work|toplayici.vt|
+!s101 -O0
+R8
+vtoplayici_vlg_sample_tst
+!i10b 1
+!s100 6G9gRM_IZNN9Pnen4DmE@3
+IN[VSNKAclMEkSFjT7[2Cc3
+VNBaGlkezCL1EKf67EQNV=0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vtoplayici_vlg_vec_tst
+!i10b 1
+!s100 k5Y;2hCGDSFIBO72]Xb[e2
+IGEaYbS:DoE2fK[]TQFJH22
+Vdj9JP_`Z>RieDIeQDm5Gc0
+R3
+R13
+R14
+R15
+L0 276
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

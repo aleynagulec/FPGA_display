@@ -1,0 +1,26 @@
+|toplayici
+cikis0 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+A0 => inst21.IN0
+A0 => inst18.IN1
+B0 => inst21.IN1
+B0 => inst18.IN0
+Cin => inst22.IN1
+Cin => inst19.IN0
+cikis1 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst13.IN0
+A1 => inst16.IN1
+B1 => inst13.IN1
+B1 => inst16.IN0
+cikis2 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+A2 => inst10.IN0
+A2 => inst7.IN1
+B2 => inst10.IN1
+B2 => inst7.IN0
+cikis3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst6.IN0
+A3 => inst.IN1
+B3 => inst6.IN1
+B3 => inst.IN0
+Cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
